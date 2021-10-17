@@ -95,8 +95,8 @@ I tried to swap <div class="main"> with <main> and <div class="attribution"> to 
 ## Author
 
 - Website - [Pankaj Pawar](https://www.twitter.com/DamnItAzriel)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DamnItAzriel)
-- Twitter - [@yourusername](https://www.twitter.com/DamnItAzriel)
+- Frontend Mentor - [@DamnItAzriel](https://www.frontendmentor.io/profile/DamnItAzriel)
+- Twitter - [@DamnItAzriel](https://www.twitter.com/DamnItAzriel)
 
 ## Acknowledgments
 
