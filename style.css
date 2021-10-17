@@ -1,0 +1,144 @@
+.attribution { font-size: 11px; text-align: center;  padding-top: 75px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 325px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 150px auto;
+    text-align: center;
+    font-size: 9px;
+    color: hsl(0, 0%, 59%);
+    background-color: hsl(185, 75%, 39%);
+    /* background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+    background-position-x: -75%, 150%;
+    background-position-y: 150%, -125%;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed; */
+    background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+    background-position-x: -720px, 125px;
+    background-position-y: -600px, 300px;
+    background-repeat: no-repeat, no-repeat;
+
+    
+}
+.main {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+div#imageVictor{
+    display: block;
+    height: 75px;
+    /* margin-bottom: 75px; */
+    /* border: 1px solid #111111;
+    border-radius: 50%; */
+}
+
+div#imageVictor > img {
+    background-color: #ffffff;
+    /* display: block; */
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top: -48px;
+}
+#details{
+    margin-bottom: 25px;
+    /* background-color: #ffffff; */
+}
+div#follow{
+    /* margin-top: 100px; */
+    display: inline-flex;
+    /* width: 100%; */
+    width: 325px;
+    float: left;
+    /* border-top: 1px solid hsl(227, 10%, 46%); */
+    /* hsl(0, 0%, 59%) */
+    border-top: 1px solid hsl(0, 0%, 59%, 0.25);
+    padding-top: 25px;
+    /* padding-right: 50px;
+    padding-left: 50px; */
+}
+#followers, #likes, #photos{
+    width: 116.666666667px;
+}
+#imageTop{
+    border-radius: 15px 15px 0px 0px;
+}
+#imageTop > img {
+    border-radius: 15px 15px 0px 0px;
+    width: auto;
+    max-width: 100%;
+    /* height: auto; */
+}
+.name-stats{
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(229, 23%, 23%);
+}
+.text{
+    letter-spacing: 0.15em;
+}
+
+/* @media screen and (max-width:430px) {
+    body {
+        background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+        background-position-x: -720px, 125px;
+        background-position-y: -600px, 300px;
+        background-repeat: no-repeat, no-repeat;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    body{
+        background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+        background-position-x: -480px,480px;
+        background-position-y: -540px, 360px;
+        background-repeat: no-repeat, no-repeat;
+    }
+} */
+
+/* @media screen and (min-width:960px) {
+    body{
+        background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+        background-position-x: -50%, 150%;
+        background-position-y: 150%, -125%;
+        background-position-x: -200px, 600px;
+        background-position-y: ;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: fixed, fixed;
+    }
+} */
+
+@media screen and (min-width:480px) {
+    body{
+        background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+        background-position-x: -480px,480px;
+        background-position-y: -540px, 360px;
+        background-repeat: no-repeat, no-repeat;
+    }
+}
+
+@media screen and (min-width:720px) {
+    body{
+        background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+        background-position-x: -540px,340px;
+        background-position-y: -600px, 360px;
+        background-repeat: no-repeat, no-repeat; 
+    }
+}
+
+@media screen and (min-width:1080px) {
+    body{
+    background-image: url('/images/bg-pattern-top.svg') ,url('/images/bg-pattern-bottom.svg');
+    /* background-position-x: -75%, 150%;
+    background-position-y: 150%, -125%; */
+    background-position-x: -400px, 600px;
+    background-position-y: -480px, 270px;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    }
+}

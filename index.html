@@ -7,29 +7,66 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="main">
+    <div id="imageTop"><!--
+    --><img src="/images/bg-pattern-card.svg" alt="Pattern Top"><!--
+--></div>
+    <div id="imageVictor">
+      <img src="/images/image-victor.jpg" alt="image-victor"><!--
+  --></div>
+    <div id="details">
+      <span class="name-stats" style="color: hsl(229, 23%, 23%);"> 
+        Victor Crest        
+      </span>
+      
+      <span style="font-size: 18px;">
+        26
+      </span>
+      <span style="font-size: 15px; padding-top: 10px; display: block;">
+        London
+      </span>
+    </div>
+    <div id="follow">
+      <div id="followers">
+        <span class="name-stats">
+            80K
+        </span>
+        <br>
+        <span class="text">
+          Followers
+        </span>
+      </div>
+      <div id="likes">
+        <span class="name-stats">
+          803K
+        </span>
+        <br>
+        <span class="text">
+          Likes
+        </span>
+      </div>
+      <div id="photos">
+        <span class="name-stats">
+        1.4K
+        </span>
+        <br>
+        <span class="text">
+          Photos
+        </span>
+      </div>
+    </div>
+  
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://twitter.com/DamnItAzriel">Pankaj Pawar</a>.
+    </div>
+    
   </div>
 </body>
 </html>
